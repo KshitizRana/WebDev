@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header {
+    display: flex;
+    position: fixed;
+    padding: 10px;
+    border: 2px solid black;
+    width: auto;
+    height: 70px;
+} */
+.name{
+    position: relative;
+    padding: 7px;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.nav{
+    position: fixed;
+    display: flex;
+    /* top: 12px; */
+    top: 0;
+    left: 0;
+
+    padding:8px;
+    border:2px solid ;
+    text-align: center;
+    width: 100%;
+    height:75px;
+    z-index:2;
+    background-color: white;
+    border: 2px solid white;
+
+}
+ul{
+    position: relative;
+    padding:0;
+    margin: 0;
+    left: 64%;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    
+    /* margin: ; */
+    
+
+}
+li{
+    padding: 21px;
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+    
+    color: blue;
+}
+li:active{
+    color: blue;
+}
+main{
+    display: flex;
+    position: relative;
+    /* border: 2px solid black; */
+    height: 100;
+    width: 100;
+    top: 0;
+}
+.box1{
+    position: relative;
+    /* border: 2px solid  grey; */
+    height: 1070px;
+    width: 40%;
+    top: 0;
+    background-color: rgb(230, 218, 206);
+}
+.card{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 525px;
+    border: 2px solid rgb(244,236,230);
+    height: 500px;
+    width: 40%;
+    background-color: rgb(244,236,230);
+    text-align: center; 
+    padding: 5px;
+    z-index:1;
+    box-shadow: -0.3em  .3em 20px 0 rgb(167, 164, 164);
+    border-radius: 5px;
+   
+}
+.profileimg{
+    position: absolute;
+    top: 70px;
+    left: 125px;
+    width: 38%;
+    height: 25%;
+    background-color: grey;
+    border: 1px transparent grey;
+    border-radius: 50%;
+}
+.cardname{
+
+    /* border: 2px solid black; */
+    position: relative;
+    text-align: center;
+    height: 100px;
+    padding: 5px;
+    top: 45%;
+    left: 35%;
+    font-family: sans-serif;
+    
+} 
+.line{
+    position: relative;
+    top: 64%;
+    left: 15px;
+    border-top:3px solid blue;
+    width: 50px;
+    border-radius: 3px;
+
+}  
+p.carddesig{
+    display: inline;
+    width: 88%;
+    position: absolute;
+    text-align:center;
+    /* border: 2px solid black; */
+    bottom: 100px;
+    left: 10px;
+    padding: 15px;
+    font-size: 17px;
+    letter-spacing: 8px;
+    font-family: Helvetica, sans-serif;
+} 
+.symbols{
+    display: flex;
+    position: absolute;
+    /* border: 2px solid black; */
+    width: 100%;
+    /* left: 0; */
+    margin: 0;
+    bottom: 0;
+    height: 50px;
+    padding:1px;
+    right: 0;
+    background-color: #fff;
+    align-items: center;
+}
+.face{
+    display: flex;
+    position: relative;
+    /* top: 10px;  */
+    height: 30px;
+    left: 100px;
+    padding: 8px;
+    
+}
+.box2{
+    position:relative;
+    /* z-index: 5; */
+    /* border: 2px solid  grey; */
+    height: 964px;
+    width: 50%;
+    top: 0;
+    
+
+}
+.boxheader{
+    position: relative;
+    top: 260px;
+    left: 110px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.boxheader h1{
+    font-size: 90px;
+}
+.boxheader h3{
+    font-size: 20px;
+}
+.buttons{
+    position: relative;
+    top: 290px;
+    left: 110px;
+    /* padding: 5px; */
+}
+.but1{
+    margin-right: 15px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: medium;
+    color: white;
+    border: 1px solid rgb(128, 167, 255);
+    border-radius: 50px;
+    background-color:#116dff;
+    width: 130px;
+}
+.but2{
+    margin-right: 15px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: medium;
+    color: rgb(8, 8, 8);
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 50px;
+    background-color:white;
+    width: 130px;
+}
+.para{
+    position: relative;
+    text-align:left;
+    width:25%;
+    top: 320px;
+    padding: 5px;
+    left: 110px;    
+
+}
+footer{
+    display: flex;
+    position: absolute;
+    height: 150px;
+    height: 50px;
+
+}
+.lefttext{
+    position: relative;
+    top: 28px;
+    text-align: center;
+    left: 20px;
+}
+.righttext{
+    display: flex;
+    position:relative;
+    padding: 5px;
+    left: 340%;
+    top: 1px;
+    bottom: 0;
+    /* border: 1px solid black; */
+}
+.mail p{
+    padding: 2px;
+}
+.socialshead{
+    position: relative;
+    left: 110%;
+}
+
+.symb{
+    display: flex;
+    position: relative;
+    /* border: 2px solid black; */
+    width: 100%;
+    /* left: 0; */
+    margin: 0;
+    bottom: 0;
+    height: 50px;
+    right: 0;
+    align-items: center;
+}
