@@ -41,9 +41,16 @@ li{
     color: white;
 }
 .card{
-    top: 50px;
+    top: 90px;
     margin-right: 20px;
-    padding: 6px;
+    padding: 0px !important ;
+}
+.container{
+    padding:30px;
+    width: 50%;
+    height: 610px;
+    /* border: 2px solid black; */
+
 }
 .service{
     display: flex;
@@ -60,9 +67,124 @@ li{
     letter-spacing: 0.05em;
     border-bottom: 9px solid yellow;
     width: 100px;
+    justify-content: center;
     color: rgb(30, 45, 59);
 }
 .servcard{
-    border: 2px solid white;
+    border: 0px solid white;
+}
+.aboutbody{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
 
+}
+.abouthead{
+    position: relative;
+    margin-top: 75px;
+    justify-content: right;
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 0.05em;
+    color: rgb(30, 45, 59);
+}
+.underline{
+    position: relative;
+    left: 42.7%;
+    border-bottom: 9px solid yellow;
+    justify-content: center;
+    width:100px;
+
+}
+.abouttext{
+    position: relative;
+    left: 25%;
+    margin-top: 50px;
+    align-items: center ;
+    text-align: center;
+    width: 50%;
+    line-height: 1.7em;
+    font-size: 17px;
+    color: rgb(59, 58, 58);
+}
+.aboutimg{
+    position: relative;
+    background-image: url(./assests/img4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 650px;
+    width: 952.5px;
+}
+.stats{
+    background-color: yellow;
+    height: 200px; 
+    display: flex;
+    /* padding: 50px;   */
+    
+
+
+}
+.statsnum{
+    position: relative;
+    /* justify-content: ; */
+    text-align: center;
+    margin-right: 0;    
+    /* border: 2px solid black; */
+    font-weight: bolder;
+    width: 30%;
+    font-size: 60px;
+    border-bottom: 5px solid white;
+    left: 160px;
+    color: rgb(61, 89, 117);
+    
+}
+.statstext{
+    position: relative;
+    color: rgb(61, 89, 117);
+    left: 60px;
+    
+    text-align: center;    
+    font-size: 22px;
+    width: 75%;
+}
+.project{
+    /* display: flex; */
+    position: relative;   
+    padding: 0px; 
+    align-items: center;
+    justify-content: center;
+    
+}
+.container2{
+    position: relative;
+    padding: 80px;
+    justify-items: center;
+    width: 100%;
+}
+.projhead{
+    position: relative;
+    margin-bottom: 60px;
+    left: 45%;
+    width: 250px;
+    /* border: 2px solid black; */
+    font-size: 55px;
+    font-weight:bolder;
+    color: rgb(30, 45, 59);
+    text-align: center;
+    letter-spacing: normal;
+}
+.projcol1{
+    position: relative;
+    margin-bottom: 50px;
+    /* border: 2px solid black; */
+    width: 31%;
+    left: 18%;
+}
+.projcol2{
+    position: relative;
+    margin-bottom: 50px;
+    left: 18%;
+    /* border: 2px solid black; */
+    width: 31.5%;
 }
